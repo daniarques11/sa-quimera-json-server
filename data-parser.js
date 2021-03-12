@@ -2,7 +2,7 @@ const fs = require('fs');
 /**
  * Representa un registro de reserva
  */
- function Register(user, room, day, startTime, finishTime, payed, pricePerHour) {
+function Register(user, room, day, startTime, finishTime, payed, pricePerHour) {
     this.user = user;
     this.room = room;
     this.day = day;
@@ -31,4 +31,10 @@ data.push(new Register("usuari.recurrent", "big", new Date(2021, 6, 21), new Dat
 
 data.push(new Register("usuari.recurrent", "big", new Date(2021, 6, 22), new Date(2021, 6, 18, 8, 0), new Date(2021, 6, 18, 11, 30), true, 24));
 
-fs.writeFileSync("./main/registers.json", JSON.stringify(data));
+let dataServer = {
+    "registers": data,
+    "profile": {
+        "name": "typicode"
+    }
+}
+fs.writeFileSync("./main/registers.json", JSON.stringify(dataServer));
