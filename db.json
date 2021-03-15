@@ -94,9 +94,9 @@
     {
         "user": "toni",
         "room": "both",
-        "day": "2021-07-00T22:00:00.000Z",
-        "startTime": "2021-03-00T016:30:00.000Z",
-        "finishTime": "2021-03-00T17:30:00.000Z",
+        "day": "2021-07-01T22:00:00.000Z",
+        "startTime": "2021-07-01T016:30:00.000Z",
+        "finishTime": "2021-07-01T17:30:00.000Z",
         "payed": false,
         "pricePerHour": 20,
         "hours": 1,
