@@ -79,6 +79,39 @@
         "pricePerHour": 24,
         "hours": 3,
         "cost": 72
+    },
+    {
+        "user": "toni",
+        "room": "both",
+        "day": "2021-07-18T22:00:00.000Z",
+        "startTime": "2021-07-18T08:30:00.000Z",
+        "finishTime": "2021-07-18T09:30:00.000Z",
+        "payed": false,
+        "pricePerHour": 20,
+        "hours": 1,
+        "cost": 40
+    },
+    {
+        "user": "toni",
+        "room": "both",
+        "day": "2021-07-00T22:00:00.000Z",
+        "startTime": "2021-03-00T016:30:00.000Z",
+        "finishTime": "2021-03-00T17:30:00.000Z",
+        "payed": false,
+        "pricePerHour": 20,
+        "hours": 1,
+        "cost": 40
+    },
+    {
+        "user": "jesus@gmail.com",
+        "room": "big",
+        "day": "2021-07-19T22:00:00.000Z",
+        "startTime": "2021-07-18T09:30:00.000Z",
+        "finishTime": "2021-07-18T10:30:00.000Z",
+        "payed": true,
+        "pricePerHour": 14,
+        "hours": 1,
+        "cost": 14
     }],
     "profile": {
         "name": "typicode"
